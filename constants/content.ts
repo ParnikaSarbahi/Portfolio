@@ -30,7 +30,7 @@ export const education = [
     location: "",
     duration: "Mar 2021 — May 2023",
     detail: "85.0%",
-    logo: "/logos/school.png",
+    logo: "/logos/armyschool.png",
   },
   {
     degree: "ICSE Secondary (Class X)",
@@ -75,7 +75,7 @@ export const experience = [
     company: "Samajik Unnati Sanstha",
     duration: "June 2024",
     type: "8 weeks",
-    logo: "/logos/school.png",
+    logo: "/logos/sus.png",
     tags: ["Research", "Community Outreach", "Communication"],
     bullets: [
       "Conducted research on improving education quality in slums and led a community project on environmental awareness",
