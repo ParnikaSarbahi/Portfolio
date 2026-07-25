@@ -1,3 +1,5 @@
+import type { NextConfig } from "next";
+
 const nextConfig: NextConfig = {
   outputFileTracingIncludes: {
     "/api/chat": [
@@ -6,3 +8,5 @@ const nextConfig: NextConfig = {
     ],
   },
 };
+
+export default nextConfig;
