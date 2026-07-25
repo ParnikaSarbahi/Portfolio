@@ -1,8 +1,8 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  allowedDevOrigins: [
-    "192.168.56.1",
-  ],
+const nextConfig: NextConfig = {
+  outputFileTracingIncludes: {
+    "/api/chat": [
+      "./node_modules/onnxruntime-node/bin/napi-v3/**/*",
+      "./node_modules/@xenova/transformers/**/*",
+    ],
+  },
 };
-
-export default nextConfig;
